@@ -20,7 +20,7 @@ pub struct AdaptiveFormat {
     #[serde(rename = "protectionType")]
     pub projection_type: String,
     #[serde(default)]
-    pub fps: u8,
+    pub fps: usize,
     #[serde(default)]
     pub container: String,
     #[serde(default)]
